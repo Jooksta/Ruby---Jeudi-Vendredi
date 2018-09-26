@@ -1,11 +1,17 @@
 puts "Salut, choisis un nombre pour moi ;)"
 print ">"
-number = gets.chomp
-number = number.to_i
-while number >= 0
-  puts number
-  number -= 1
-end
+number = gets.to_i #récupère le nombre donné par l'utilisateur
 
-#Je me suis gratté la tête des heures, je ne trouve pas comment faire pour compter dans l'ordre croissant...
+compteur = 0 #créer une variable intialisée à 0
+			 #on y ajoutera 1 jusqu'à avoir la meme valeur
+			 #que le nombre saisi par l'utilisateur
+
+while compteur <= number
+			 #tant que le nombre n'a pas la même valeur que
+			 #le nombre utilisateur, faire
+
+  puts compteur #imprime la valeur du compteur
+  compteur += 1 #la valeur du compteur augmente de 1
+
+end
 
