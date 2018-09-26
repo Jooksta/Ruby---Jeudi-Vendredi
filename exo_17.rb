@@ -11,8 +11,9 @@ while year >= 0
 	year -= 1
 	age += 1 
 
-end
-
-if year = age
+	if year == age
 		puts "il y a #{year} ans tu avais la moitié de l'âge que tu as aujourd'hui !"
 	end
+
+end
+
