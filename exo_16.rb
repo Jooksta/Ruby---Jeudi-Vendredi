@@ -1,11 +1,12 @@
 puts "Quel est ton âge?"
 print ">"
 age = gets.to_i
-year = 2018 - age
+birth = 2018 - age
+year = 2018 - birth
 age = 0
 
-while year < 2018
-	puts "en #{year} tu avais #{age} ans !"
-	age += 1 
-	year += 1
+if year != 0
+	puts "il y a #{year} ans tu avais #{age} ans !"
+		year += 1
+		age += 1 
 end
