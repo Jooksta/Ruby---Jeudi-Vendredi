@@ -4,6 +4,7 @@ number = gets.to_i
 age = 0
 
 while number < 2017
-    puts number += 1 
-    puts age += 1
+    number += 1 
+    age += 1
+    puts "en #{number} tu avais #{age} ans !"
 end
