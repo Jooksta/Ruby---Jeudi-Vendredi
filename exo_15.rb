@@ -1,10 +1,16 @@
 puts "Quelle est ton année de naissance?"
 print ">"
 number = gets.to_i
-Puts "Quelle est ton âge ?"
-print ">"
-number2 = gets.to_i
+age = "#{2018 - number}"
 
 while number < 2017
-    puts number += 1 number2 +=1
+    puts number += 1 , age
 end
+
+    	
+
+
+
+
+
+
