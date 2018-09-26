@@ -3,7 +3,7 @@ user_name = gets.chomp
 puts user_name
 
 
-# gets.chomp permet d'écrire une réponse dans le terminal.
+# gets.chomp permet d'écrire une réponse dans le terminal et de l'assimiler comme une string (chaîne de caractère)
 
 # gets demande à l'utilisateur d'écrire quelque chose.
 
