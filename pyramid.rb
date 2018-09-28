@@ -23,5 +23,3 @@ while compteur <= number
   end
 
 end
-
-
