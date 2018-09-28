@@ -9,16 +9,16 @@ else
 
 
 compteur = 1
-diese = number
+vide = number
 
 while compteur <= number
 
-  diese.times {print " "}  
+  vide.times {print " "}  
   compteur.times {print "#"}
   print "\n"
 
   compteur = compteur + 1
-  diese = diese - 1
+  vide = vide - 1
 
   end
 
